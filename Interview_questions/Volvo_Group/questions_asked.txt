@@ -1,0 +1,26 @@
+Q1. Write a C code for pallindrome 
+
+    Solution - 
+
+        1. take the int 
+        2. Reverse the int 
+        3. compare both the input and reversed value
+
+
+        Reversing the int 
+
+        - need a multiplier for units and tens and so on ... eg for 3 digit number = 1000
+        - need a counter 
+        ^ both can be done in same loop
+
+        in another loop using the ^ counter - 
+        - divide the units * multiplier + the value = the value 
+        - divide the multiplier by 10 (reduce the thousands/tens)
+
+Q2. Make a multilevel class for library management system 
+
+    - Class book 
+    - Class student 
+    - student has public book 
+
+    Refer - 
